@@ -1,0 +1,44 @@
+S -> NP_SG PAST S1 | NP_SG PAST_PERFECT S1 | NP_SG PAST_CONT_SG S1 | NP_SG PAST_PERFECT_CONT S1 | NP_SG PRES_SG S1 | NP_SG PRES_PERFECT_SG S1 | NP_SG PRES_CONT_SG S1 | NP_SG PRES_PERFECT_CONT_SG S1 | NP_SG FUTURE S1 | NP_SG FUTURE_PERFECT S1 | NP_SG FUTURE_CONT S1 | NP_SG FUTURE_PERFECT_CONT S1 | NP_PL PAST S1 | NP_PL PAST_PERFECT S1 | NP_PL PAST_CONT_PL S1 | NP_PL PAST_PERFECT_CONT S1 | NP_PL PRES_PL S1  | NP_PL PRES_PERFECT_PL S1 | NP_PL PRES_CONT_PL S1 | NP_PL PRES_PERFECT_CONT_PL S1 | NP_PL FUTURE S1 | NP_PL FUTURE_PERFECT S1 | NP_PL FUTURE_CONT S1 | NP_PL FUTURE_PERFECT_CONT S1 | S ADV
+S1 -> NP | ADV 
+NP -> NP_SG | NP_PL | PP | NP PP
+NP_SG ->  PRONOUN_SG | PRONOUN_SG NOM_SG| PROPERNOUN | NOM_SG | DET_SG NOM_SG | DET_BOTH NOM_SG | ADV NP_SG | NP_SG CONJ NP
+NOM_SG -> NOUN_SG | ADJ NOUN_SG | NOM_SG NOUN_SG
+NP_PL -> PRONOUN_PL | PRONOUN_PL NOM_PL| NOM_PL | DET_PL NOM_PL | DET_BOTH NOM_PL | ADV NP_PL | NP_PL CONJ NP
+NOM_PL -> NOUN_PL | ADJ NOUN_PL | NOM_PL NOUN_PL
+PP -> PREPOS NP_SG | PREPOS NP_PL
+PAST -> V2 | ADV V2 
+PAST_PERFECT -> had V3 | had ADV V3 
+PAST_CONT_SG -> was GERUNDV | was ADV GERUNDV 
+PAST_CONT_PL -> were GERUNDV | were ADV GERUNDV 
+PAST_PERFECT_CONT -> had been GERUNDV | had ADV been GERUNDV  
+PRES_SG -> V1_SG | ADV V1_SG 
+PRES_PL -> V1_PL | ADV V1_PL 
+PRES_PERFECT_SG -> has V3 | has ADV V3 
+PRES_PERFECT_PL -> have V3 | have ADV V3 
+PRES_CONT_SG -> is GERUNDV | is ADV GERUNDV 
+PRES_CONT_PL -> are GERUNDV | are ADV GERUNDV 
+PRES_PERFECT_CONT_SG -> has been GERUNDV | has ADV been GERUNDV | has been | has ADV been 
+PRES_PERFECT_CONT_PL -> have been GERUNDV | have ADV been GERUNDV 
+FUTURE -> will V1_PL | will ADV V1_PL
+FUTURE_PERFECT -> will have V3 | will have ADV V3
+FUTURE_CONT -> will be GERUNDV | will ADV be GERUNDV 
+FUTURE_PERFECT_CONT -> will have been GERUNDV | will have ADV been GERUNDV 
+PRONOUN_SG -> my | she | he | it | him | i | her | his
+PRONOUN_PL -> they | us | you | we | their
+RELPR_SG -> which 
+RELPR_PL -> whom
+PROPERNOUN -> ishwarya | joseph | india | germany | ajitesh | navvya | ritheesh | switzerland | paris | wednesday | january | may | turkey | easter | november | raj | canada | america | john
+NOUN_SG -> sentence | me | kabaddi | friend | patient | parcel | player | moment | morning | grandfather | outlet | evening | programming | building | thinking | mom | weekend | brother | basketball | afternoon | book | accountant | milk | accident | neighbourhood | car | phone | night | airplane | fog | street | dad | bed | fire | house | zoo | cold | pope | cup | sister | party | tea | weather | call | baby | movie | picture | pilot | airport | assignment | week | month | room | homework | husband | year | school | teacher | letter | football | food | mountain | wife | topper | song | show | garden | album
+NOUN_PL -> roses | mountains | goats | films | times | emails | people | children |  specialists | girls | parents | jacksons | cows | boys | books | years | portraits | friends | ages | weeks | letters | peacocks | books
+DET_SG -> a | an | this | that
+DET_PL -> these | all | many | no  
+DET_BOTH -> the
+CONJ -> and | but | because | while
+ADJ -> red | delicious | first | few | two | four | three | fun | since | sweet | nice | severe | terrible | hungry | new | whole | last | every | critical
+ADV -> well | gracefully | before | next | very | when | not | whereabouts | constantly | lately | yesterday | ago | tomorrow | early | still | twice | always | already | past | never | today | never | recently | heavily
+PREPOS -> at | in | of | for | by | from | far | on | around | as | to | down
+V1_SG -> climbs | teaches | plays | cooks | is | likes | be | know | am | draws | works | understands | invloves | sings
+V1_PL -> teach | are | sing | give | think | rain | turn | go | see | do | take | study | speak | drink | cook | meet
+GERUNDV -> teaching | running | writing | opening | burning | feeling | enjoying | living | spending | ringing | repairing | visiting | having | climbing | getting | meeting | playing | cleaning | going | looking | suffering | raining | waiting | studying | snowing | seeing | dating | taking | listening | dancing
+V2 -> taught | were | was | went | knew | would | started | received | gave | caught | married | understood | flew | drink | read | made | tired | saw | did
+V3 -> seen | written | given | done | gone | made | flown | painted | fed | met | finished | acted | watched
